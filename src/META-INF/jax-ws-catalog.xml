@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8084/Module3Activity1/CalculatorWebService?wsdl" uri="xml-resources/web-service-references/CalculatorWebService/wsdl/localhost_8084/Module3Activity1/CalculatorWebService.wsdl"/>
+    <system systemId="http://localhost:8084/Module3Activity1/CalculatorWebService?xsd=1" uri="xml-resources/web-service-references/CalculatorWebService/wsdl/localhost_8084/Module3Activity1/CalculatorWebService.xsd_1.xsd"/>
+    <system systemId="http://localhost:9090/CalculatorWebService?wsdl" uri="xml-resources/web-service-references/CalculatorWebService/wsdl/localhost_9090/CalculatorWebService.wsdl"/>
+    <system systemId="http://localhost:9090/CalculatorWebService?xsd=1" uri="xml-resources/web-service-references/CalculatorWebService/wsdl/localhost_9090/CalculatorWebService.xsd_1.xsd"/>
+    <system systemId="http://localhost:9090/Calculator?wsdl" uri="wsdl/localhost_9090/Calculator.wsdl"/>
+    <system systemId="http://localhost:9090/Calculator?xsd=1" uri="wsdl/localhost_9090/Calculator.xsd_1.xsd"/>
+</catalog>
