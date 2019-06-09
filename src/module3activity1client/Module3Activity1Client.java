@@ -65,16 +65,16 @@ public class Module3Activity1Client {
         System.exit(0);
     }
 
-    private static Double add(java.lang.Double number1, java.lang.Double number2) {
-        servs.CalculatorWebService_Service service = new servs.CalculatorWebService_Service();
-        servs.CalculatorWebService port = service.getCalculatorWebServicePort();
-        return port.add(number1, number2);
+    private static Double add(java.lang.Double arg0, java.lang.Double arg1) {
+        module3activity1client.Calculator_Service service = new module3activity1client.Calculator_Service();
+        module3activity1client.Calculator port = service.getCalculatorPort();
+        return port.add(arg0, arg1);
     }
 
-    private static Double sub(java.lang.Double number1, java.lang.Double number2) {
-        servs.CalculatorWebService_Service service = new servs.CalculatorWebService_Service();
-        servs.CalculatorWebService port = service.getCalculatorWebServicePort();
-        return port.sub(number1, number2);
+    private static Double sub(java.lang.Double arg0, java.lang.Double arg1) {
+        module3activity1client.Calculator_Service service = new module3activity1client.Calculator_Service();
+        module3activity1client.Calculator port = service.getCalculatorPort();
+        return port.sub(arg0, arg1);
     }
 
 
