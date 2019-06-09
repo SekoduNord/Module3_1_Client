@@ -66,16 +66,19 @@ public class Module3Activity1Client {
     }
 
     private static Double add(java.lang.Double arg0, java.lang.Double arg1) {
-        module3activity1client.Calculator_Service service = new module3activity1client.Calculator_Service();
-        module3activity1client.Calculator port = service.getCalculatorPort();
+        servs.Calculator service = new servs.Calculator();
+        servs.CalculatorInterface port = service.getCalculatorPort();
         return port.add(arg0, arg1);
     }
 
     private static Double sub(java.lang.Double arg0, java.lang.Double arg1) {
-        module3activity1client.Calculator_Service service = new module3activity1client.Calculator_Service();
-        module3activity1client.Calculator port = service.getCalculatorPort();
+        servs.Calculator service = new servs.Calculator();
+        servs.CalculatorInterface port = service.getCalculatorPort();
         return port.sub(arg0, arg1);
     }
+
+ 
+    
 
 
 
